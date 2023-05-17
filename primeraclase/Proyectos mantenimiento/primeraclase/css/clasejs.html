@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>NICOLAS CASTRO</h1>
+    <input type="button" value="">
+    <button onclick="name_funcion()" id="name_event">
+    </button>
+    <script>
+        console.log ("ingresa")
+        //variable//
+        const NameUno = "ESTO ES CUALQUIER COSA";
+        var name_dos = "ESTO ES CUALQUEIER COSA";
+        let nameTres = "ESTO ES CUALQUIER COSA";
+        console.log (NameUno +"\n" name_dos +"\n" nameTres)
+
+        //TIPOS DE DATOS  [ ]//
+        let num_a = 10;
+        let num_b = 5.5;
+        let boolean = false;
+        let stringvar = "MI NOMBRE ES";
+        let arraynum = [1,2,3,4,5,6,7,8];
+        let dias_semana = {"LUNES", "MARTES", "MIERCOLES"};
+        let users =
+        {name: "Nicolas", last_name: "Castro", age: "22" }
+        {name: "Andres", last_name: "Rodriguez", age: "22"}
+        {name: "Sandra", last_name: "Cardona", age: "22"}
+
+        //operadores aritmeticos
+        let suma = num_a + numb;
+        let resta = num_a - num_b;
+        let multi = num_a * num_b;
+        let div = num_a / num_b;
+        let module = num_a % num_b;
+        let expo = num_a ^ num_b;
+
+        // operadores logicos and && / or / !NEGACION, DIFERENCE, CONTRARIO
+
+        console.log (boolean + "--" + !boolean)
+
+        //ESTRUCTURAS CONDICIONALES IF/ ELSE/ ELSE IF/ SWITCH (BREAK)
+        //ESTRUCTURAS REPETITIVAS FOR/ WHILE/ DO WHILE
+        let log_nameuno = NameUno.length;
+        console.log(arraynum.length);
+        if (log_nameuno > = 22) {
+            let name_minus =name_minus.toLowerCase();
+            console.log(name_minus);
+            console.log(dias_semana[0]);
+            console.log(users[0].name)
+        }
+        else{
+            console.log ("NO TIENE LONGITUD");
+        }
+        for(let i=0; <dias_semana.length>; i ++){
+            console.log (dias_semana[i])
+
+        }
+        let i = 0;
+        while (i<dias_semana.length) {
+            console.log(dias_semana)
+        }
+        //funciones
+        function name_funcion() {
+            let variable = Document.getElementById ("variable").value;
+            Document.getElementById("titulo").innertext = variable;
+            variable= variable.touppercase()
+            Document.getElementById(" titulo").style.color = "green";
+        }
+        Document.getElementById("nam_evento"). addEventListener("click", function()){
+            alert("HOLA SOY UN EVENTO EN UN ID")
+        }
+
+
+
+
+    </script>
+</body>
+</html>
